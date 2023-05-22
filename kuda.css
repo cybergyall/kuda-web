@@ -1,0 +1,392 @@
+/* brand color = 
+#40196d;
+#1dcbef;
+#48d38a;
+#48d38a;
+#979797
+*/
+
+/* 
+-primaryColor: #40196d;
+    --lightBlueColor: #1dcbef;
+    --blackColor: #000;
+    --successColor: #48d38a;
+    --negativeColor: #f7685b;
+    --textColor: #979797;
+    --whiteColor: #fff;
+    --whiteAlt: #fff;
+    --darkAlt: #000;
+    --offWhite: #f9f9f9;
+    --offWhiteTrans: hsla(228,7%,87%,.3);
+    --borderOff: hsla(228,7%,87%,.5);
+    --offText: rgba(0,0,0,.5);
+    --bgOffset: #f4f4f4;
+    --placeHolder: #979797;
+    --offBlue: #eff1ff;
+    --boxShadow: rgba(64,25,109,.07);
+    --offBlueTran: rgba(223,227,255,.3);
+    --primaryAlt: #40196d;
+    --offGreen: rgba(72,211,138,.5);
+    --ctaOffBlue: rgba(64,25,109,.3);
+    --overlay: rgba(64,25,109,.2);
+    --successColorTrans: #dcffec; */
+    *{
+      margin: auto;
+  }
+    #menu{
+      display: flex;
+      background-color: rgba(247, 244, 244, 0.713);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      height: 50px;
+      padding: 10px;
+      /* margin-right: 100px; */
+  }
+  #menu .logo{
+    margin-left: 150px;
+    margin-top: 4px;
+  }
+  #menu .list{
+    display: flex;
+    list-style: none;
+  }
+  #menu .list div span{
+    margin-left: 100px;
+    color: #40196d;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  #menu .list .drop p{
+    padding-top:  20px;
+  }
+  #menu .list .drop p a{
+    color: black;
+    padding-top: 5px;
+    font-weight: light;
+    font-size: 17px;
+    text-decoration: none;
+  }
+ .drop{
+    position: relative;
+    display: inline-block
+  }
+  .content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0);
+    padding: 12px 16px;
+    z-index: 1;
+    text-decoration: none;
+  }
+  /* .drop:hover .content{
+    display: block;
+  } */
+  #menu .sign-up span{
+    margin-right: 20px;
+    color: #40196d;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  #menu .sign-up span a{
+    text-decoration: none;
+    color: #40196d;
+  }
+  #menu .sign-up button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px ;
+    font-size: 16px;
+  }
+  #menu .sign-up button{
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #40196d;
+  }
+  #join{
+    display: flex;
+    margin-right: 200px;
+    /* width: 80%; */
+    margin-top: 100px;
+  }     
+ 
+  #join .join-img{
+    margin-left: 100px;
+  }
+  #join .join-txt{
+    margin-top: 100px;
+  }
+  #join .join-img .img-1{
+    position: absolute;
+  }
+  #join .join-img .img-2{
+    position: relative;
+    left: 70px;
+    top: 50px;
+  }
+
+#join .join-txt h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #40196d;
+  }
+  #join .join-txt p{
+    font-size: 15;
+    font-weight: bold;
+    color: rgb(40, 39, 39);
+    }
+  #join .join-txt button {
+        margin-top: 20px;
+        color: white;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 12px;
+        height: 39px;
+        width: 130px;
+        border-radius: 10px;
+        background-color: #40196d;
+        border: 0px;
+        text-decoration: none;
+      }
+      #join .join-txt button a{
+        color: white;
+        text-decoration: none;
+      }
+   #save{
+        display: flex;
+        margin-right: 200px;
+        width: 80%;
+        margin-top: 200px;
+      }     
+  #save .save-img{
+        margin-left: 100px;
+      }
+  #save .save-txt{
+        margin-top: 100px;
+      }
+   #save .save-img span{
+            margin-right: 55px;
+            height: 400px;
+            width: 400px;
+            background-color: #d1d3e2;
+            border-radius: 50%;
+            display: inline-block;
+          }
+   #save .save-img img{
+            margin-right: 53px;
+          }
+   #save .save-txt h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 900;
+        color: #40196d;
+      }
+   #save .save-txt p{
+        font-size: 15;
+        color: rgb(40, 39, 39);
+        }
+        
+   #spend{
+          display: flex;
+          /* margin-right: 200px; */
+          width: 80%;
+          margin-top: 100px;
+        }     
+
+     #spend .spend-txt{
+          margin-top: 100px;
+          margin-left: 100px;
+        } 
+    #spend .spend-img span{
+              margin-right: 55px;
+              height: 400px;
+              width: 400px;
+              background-color: #dcffec;
+              border-radius: 50%;
+              display: inline-block;
+            }
+    #spend .spend-txt h1{
+          font-size: 40px;
+          letter-spacing: 1px;
+          font-weight: 900;
+          color: #40196d;
+        }
+    #spend .spend-txt p{
+          font-size: 15;
+          color: rgb(40, 39, 39);
+          } 
+
+     #send{
+            display: flex;
+            /* margin-right: 200px; */
+            width: 80%;
+            margin-top: 100px;
+          }     
+      #send .send-img{
+            margin-left: 100px;
+          }
+      #send .send-txt{
+            margin-top: 100px;
+            /* margin-left: 100px; */
+
+          }
+      #send .send-img span{
+                margin-right: 55px;
+                height: 400px;
+                width: 400px;
+                background-color: #f9dfd9;
+                border-radius: 50%;
+                display: inline-block;
+              }
+
+    
+      #send .send-txt h1{
+            font-size: 40px;
+            letter-spacing: 1px;
+            font-weight: 900;
+            color: #40196d;
+          }
+      #send .send-txt p{
+            font-size: 15;
+            color: rgb(40, 39, 39);
+            }
+      #invest{
+              display: flex;
+              /* margin-right: 200px; */
+              width: 80%;
+              margin-top: 100px;
+            }     
+   
+      #invest .invest-txt{
+              margin-top: 100px;
+              margin-left: 100px;
+  
+            }
+      #invest .invest-imge span{
+                  margin-right: 55px;
+                  height: 400px;
+                  width: 400px;
+                  background-color: #dcffec;
+                  border-radius: 50%;
+                  display: inline-block;
+                }
+  
+      
+      #invest .invest-txt h1{
+              font-size: 40px;
+              letter-spacing: 1px;
+              font-weight: 900;
+              color: #40196d;
+              font-weight: bolder;
+            }
+      #invest .invest-txt p{
+              font-size: 15;
+              color: rgb(40, 39, 39);
+              }
+      #hello{
+                display: flex;
+                /* margin-right: 200px; */
+                width: 80%;
+                margin-top: 100px;
+              }     
+      #hello .hello-txt{
+                margin-top: 100px;
+                /* margin-left: 100px; */
+    
+              }
+     #hello .hello-txt h1{
+                font-size: 40px;
+                letter-spacing: 1px;
+                font-weight: 900;
+                color: #40196d;
+              }
+      #hello .hello-txt p{
+                font-size: 15;
+                color: rgb(40, 39, 39);
+                }
+      #hello .hello-txt p a{
+                  font-weight: bolder;
+                }     
+      #money{
+                  background-color: #d1d3e2;
+                  display: flex;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  margin-right: 200px;
+                  width: 80%;
+                  height: 400px;
+                  margin-top: 150px;
+                  margin-left: 150px;
+                }     
+               
+      #money .money-txt{
+                  margin-top: 100px;
+                }
+      #hello .hello-img{
+                  margin-left: 100px;
+                }
+     #hello .hello-img span{
+                  margin-right: 55px;
+                  height: 400px;
+                  width: 400px;
+                  background-color: #dcffec;
+                  border-radius: 50%;
+                  display: inline-block;
+                }
+      #money .money-img .img-1{
+                  position: absolute;
+                }
+      #app .money-img .img-2{
+                  position: relative;
+                  left: 60px;
+                  top: 50px;
+                }
+          
+      #money .money-txt h1{
+                  font-size: 50px;
+                  letter-spacing: 1px;
+                  font-weight: 900;
+                  color: #40196d;
+                }
+      #money .money-txt p{
+                  font-size: 15;
+                  font-weight: bold;
+                  color: rgb(40, 39, 39);
+                  }
+      #money .money-txt button{
+                      margin-top: 20px;
+                      color: white;
+                      font-weight: bolder;
+                      font-size: 12.5px;
+                      padding: 12px;
+                      height: 39px;
+                      width: 130px;
+                      border-radius: 10px;
+                      background-color: #40196d;
+                      border: 0px;
+                    }     
+      #about{
+                      display: flex;
+                      background-color: rgba(247, 244, 244, 0.713);
+                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                      margin-top: 100px;
+                     }
+      
+      #about .logo-dwn{
+                      margin-left: 100px;
+                      margin-top: 15px;
+                    }
+      
+      #about div ul{
+                      list-style: none;
+                    }
+      #about div ul .top{
+                      color: #40196d;
+                      font-weight: bolder;
+                      font-size: 20.5px;
+                    }
+      
